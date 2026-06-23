@@ -1,7 +1,7 @@
 import pytest
 
-from ad_robot.models import DownloadResult
-from ad_robot.stats import calculate_summary
+from src.ad_robot.models import DownloadResult
+from src.ad_robot.stats import calculate_summary
 
 
 def test_calculate_summary_uses_successful_requests_only() -> None:
